@@ -11,7 +11,11 @@ Utilize o usuário "user" e a senha que é impressa no terminal ao executar a ap
 APIs endpoints:
 
 GET http://localhost:8080/api/clientes [lista todos os clientes]
+
 GET http://localhost:8080/api/clientes/{id} [lista um cliente por ID]
+
 POST http://localhost:8080/api/clientes [cadastra um novo cliente]
+
 PUT http://localhost:8080/api/clientes/{id} [atualiza os dados de um cliente]
+
 DELETE http://localhost:8080/api/clientes/{id} [remove um cliente por ID]
